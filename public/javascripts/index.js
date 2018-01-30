@@ -33,7 +33,7 @@ $(document).ready(function () {
   var basicOption = {
     title: {
       display: true,
-      text: 'Temperature & Humidity Real-time Data',
+      text: '技術発表会　温度・湿度リアルタイムグラフ　デモ',
       fontSize: 36
     },
     scales: {
