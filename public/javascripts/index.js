@@ -41,7 +41,7 @@ $(document).ready(function () {
         id: 'Temperature',
         type: 'linear',
         scaleLabel: {
-          labelString: 'Temperature(C)',
+          labelString: '温度(C)',
           display: true
         },
         position: 'left',
@@ -49,7 +49,7 @@ $(document).ready(function () {
           id: 'Humidity',
           type: 'linear',
           scaleLabel: {
-            labelString: 'Humidity(%)',
+            labelString: '湿度(%)',
             display: true
           },
           position: 'right'
