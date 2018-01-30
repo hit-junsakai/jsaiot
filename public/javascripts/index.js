@@ -7,7 +7,7 @@ $(document).ready(function () {
     datasets: [
       {
         fill: false,
-        label: 'Temperature',
+        label: '温度(C)',
         yAxisID: 'Temperature',
         borderColor: "rgba(255, 204, 0, 1)",
         pointBoarderColor: "rgba(255, 204, 0, 1)",
@@ -18,7 +18,7 @@ $(document).ready(function () {
       },
       {
         fill: false,
-        label: 'Humidity',
+        label: '湿度(%)',
         yAxisID: 'Humidity',
         borderColor: "rgba(24, 120, 240, 1)",
         pointBoarderColor: "rgba(24, 120, 240, 1)",
@@ -33,7 +33,7 @@ $(document).ready(function () {
   var basicOption = {
     title: {
       display: true,
-      text: 'Temperature & Humidity Real-time Data',
+      text: '技術発表会　温度・湿度リアルタイムグラフ　デモ',
       fontSize: 36
     },
     scales: {
@@ -41,7 +41,7 @@ $(document).ready(function () {
         id: 'Temperature',
         type: 'linear',
         scaleLabel: {
-          labelString: 'Temperature(C)',
+          labelString: '温度(C)',
           display: true
         },
         position: 'left',
@@ -49,7 +49,7 @@ $(document).ready(function () {
           id: 'Humidity',
           type: 'linear',
           scaleLabel: {
-            labelString: 'Humidity(%)',
+            labelString: '湿度(%)',
             display: true
           },
           position: 'right'
